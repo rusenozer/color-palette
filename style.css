@@ -1,0 +1,70 @@
+html{
+    font-size: 14px;
+}
+
+body{
+    margin:0;
+    padding: 0 150px;
+    background-color: black;
+    height: 100vh;
+
+   
+}
+.color-schema{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 224, 224);
+    border-radius: 20px;
+   
+}
+
+.color-schema--form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center ;
+    padding: 8px 10px;
+
+}
+
+
+#color-input{
+    border:none;
+}
+
+.color-schema--colors{
+    display: flex;
+    flex-direction: column;
+    flex:4;
+}
+
+.color-schema--colors__grid{
+    flex: 2;
+    display: flex;
+}
+
+.color{
+    flex:1;
+}
+
+.colorName{
+    flex:1;
+    text-align: center;
+}
+
+.color-schema--colors__name{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 1.8rem;
+ 
+}
+
+#btn{
+    padding: 7px 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}

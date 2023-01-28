@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="color-schema">
+
+        <form class="color-schema--form">
+            <input type="color" name="color" id="color-input"/>
+            <select name="palette" id="palette-selection">
+                <option selected value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button type ="submit" id="btn">Get Color Schema</button>
+        </form>
+        <div class="color-schema--colors">
+            <div class="color-schema--colors__grid">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="color-schema--colors__name">
+                <div class="colorName"></div>
+                <div class="colorName"></div>
+                <div class="colorName"></div>
+                <div class="colorName"></div>
+                <div class="colorName"></div>
+                <div class="colorName"></div>
+            </div>
+        </div>
+       
+
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
